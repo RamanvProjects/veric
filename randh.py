@@ -49,7 +49,8 @@ def hierarchy(G, sizes):
         abstract_G = create_graph_object(curr_G, subgraphs, classes)
         
         levels[level] = (abstract_G, classes, subgraphs)
-    
+        curr_G = abstract_G
+
     return levels
 
 def dummy():
