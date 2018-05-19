@@ -1,4 +1,4 @@
-def ascii_to_graph(filename="basic.txt"):
+def ascii_to_graph(filename="gridworld.txt"):
     ascii_file = open(filename, "r")
     rows = ascii_file.read().split("\n")
     #print rows
@@ -27,3 +27,5 @@ def ascii_to_graph(filename="basic.txt"):
             clean_graph[loc] = graph[loc]
 
     return clean_graph
+
+print ascii_to_graph()
