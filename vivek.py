@@ -7,7 +7,7 @@ def ascii_to_graph(filename="basic.txt"):
     y = 0
     for rx,rv in enumerate(rows):
         for cy,cv in enumerate(rv):
-            if cv == " ":
+            if cv != "w":
                 graph[(rx,cy)] = []
                 if graph[(rx-1,cy)] != "wall":
                     graph[(rx-1,cy)].append((rx,cy))
