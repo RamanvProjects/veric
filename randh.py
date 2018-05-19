@@ -36,7 +36,6 @@ def create_graph_object(G, subgraphs, classes):
             cl_ = classes[child]
             graph[cl].add(cl_)
     
-    print graph
     return nx.Graph(graph)
 
 def hierarchy(G, sizes):
