@@ -1,0 +1,11 @@
+(MDP)
+	graph
+(Agents)
+	Q-learning,0
+(Params)
+	track_disc_reward : False
+	instances : 5
+	episodes : 100
+	steps : 200
+	is_lifelong : False
+	gamma : 0.99

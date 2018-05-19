@@ -28,4 +28,4 @@ def ascii_to_graph(filename="gridworld.txt"):
 
     return clean_graph
 
-print ascii_to_graph()
+

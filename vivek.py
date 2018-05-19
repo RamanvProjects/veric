@@ -39,5 +39,3 @@ def ascii_to_graph(filename="gridworld.txt"):
             new_graph[converter[key]].append(converter[v])
 
     return new_graph
-
-print ascii_to_graph()
